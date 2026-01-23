@@ -432,10 +432,11 @@ body{
      }
 
      #icon .icon-container{
-
+          width: 100%;
           display: grid;
-          grid-template-columns: repeat(4,1fr);
+          grid-template-columns: repeat(3,1fr);
           margin-top: 80px;
+          padding-right: 50px;
      }
 
      #features .content-features{
