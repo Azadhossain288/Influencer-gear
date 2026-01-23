@@ -437,6 +437,8 @@ body{
           grid-template-columns: repeat(3,1fr);
           margin-top: 80px;
           padding-right: 50px;
+          padding-left: 20px;
+          margin:auto;
      }
 
      #features .content-features{
