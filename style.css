@@ -38,6 +38,11 @@ body{
     padding-bottom: 145px;
 }
 
+.card-icon{
+
+     display:none;
+}
+
 .container .btn{
 
     max-width: 443px;
@@ -294,6 +299,212 @@ body{
      border-radius: 16px;
      padding:8px;
 }
+
+.footer-content{
+          
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     margin:auto;
+     background-color: #08041C;
+     color:#fff;
+     padding:50px;
+
+}
+
+.ft-text .fh{
+
+     padding-bottom: 8px;
+}
+
+.ft-text .fc{
+
+     padding-bottom: 8px;
+}
+
+.ft-text .fl{
+
+     padding-bottom: 8px;
+}
+
+.footer-content .icon-card i{
+             
+        gap:30px;
+        border:1px solid;
+        border-radius: 20px;
+        margin-right: 20px;
+        padding:8px;
+}
+
+
+@media screen and (max-width:576px){
+
+     #navbar .container{
+
+           display:grid;
+           grid-template-columns: 1fr;
+           align-items: center;
+           justify-content: center;
+           margin-bottom: 60px;
+     }
+
+     .cart-icon{
+
+          display:block;
+          text-align: right;
+          color:#3A3A3A;
+          cursor:pointer;
+          padding-right: 20px;
+          margin-top: -70px;
+
+
+     }
+
+     .lh{
+
+          margin:40px 0px 0px 0px;
+           padding-bottom: 20px; 
+     }
+
+     .container .btn{
+
+           /* display: grid;
+           grid-template-columns: repeat(2,1fr);
+           gap:15px;
+           margin:auto; */
+
+           display: none;
+
+     }
+
+     #step1 .sec-container{
+
+          width:100%;
+          display:grid;
+          grid-template-columns: 1fr;
+          gap:90px;
+          margin:auto;
+          align-items: center;
+          justify-content: center;
+     }
+
+     .text-container a{
+
+          padding: 8px;
+     }
+
+     .text-container{
+
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          margin:auto;
+     }
+
+     .text-container{
+
+          font-size: 28px;
+     }
+
+     .image-wrapper{
+
+          align-items: center;
+          justify-content: center;
+          margin:auto;
+     }
+
+     .circle-container{
+
+          width: 300px;
+          height: 300px;
+
+     }
+
+     .circle-container::before{
+
+          width: 250px;
+          height: 250px;
+     }
+
+     #icon .icon-container{
+
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          margin-top: 80px;
+     }
+
+     #features .content-features{
+
+          width: 100%;
+          height: auto;
+          margin:auto;
+     }
+
+     .content-features .box-card{
+
+          display: grid;
+          grid-template-columns: 1fr;
+          margin:auto;
+     }
+
+     .box{
+
+
+          margin:auto;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+
+     }
+
+     #content{
+
+          margin:auto;
+          text-align: center;
+            align-items: center;
+            justify-content: center;
+
+     }
+
+     #Content .content-text-and-image{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap:30px;
+            margin:auto;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+     }
+
+     .image img{
+
+          margin:auto;
+          align-items: center;
+          justify-content: center;
+          margin-top: 60px;
+          margin-right: 50px;
+          
+          
+     }
+
+     .context{
+          margin:auto;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          padding-left: 50px;
+          padding-right: 80px;
+          
+         
+     }
+
+
+     
+}
+
+
+
+
 
  
  
